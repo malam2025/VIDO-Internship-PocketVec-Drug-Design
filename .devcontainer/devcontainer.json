@@ -1,0 +1,15 @@
+{
+  "name": "PocketVec",
+  "image": "mcr.microsoft.com/devcontainers/python:3.10",
+  "features": {
+    "ghcr.io/devcontainers/features/conda:1": {
+      "environment": "pocketvec_env"
+    }
+  },
+  "postCreateCommand": "conda env update -n pocketvec_env -f environment.yml && python setup_jupyter_kernel.py",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python"]
+    }
+  }
+}
