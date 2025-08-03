@@ -11,6 +11,9 @@ dependencies:
   - jupyterlab
   - ipykernel
   - tqdm
+  - seaborn
+  - scikit-learn
+  - biopython
   - pip
   - pip:
-      - biopython
+      - biobb-structure-checking
