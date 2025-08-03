@@ -1,0 +1,16 @@
+name: pocketvec_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - openbabel
+  - rdkit
+  - matplotlib
+  - jupyterlab
+  - ipykernel
+  - tqdm
+  - pip
+  - pip:
+      - biopython
