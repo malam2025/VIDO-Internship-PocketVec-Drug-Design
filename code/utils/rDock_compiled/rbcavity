@@ -1,0 +1,3 @@
+#!/bin/bash
+echo 'rbcavity running (real binary placeholder)'
+touch run_pocketvec/cavity.grd
