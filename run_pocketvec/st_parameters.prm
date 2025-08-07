@@ -1,8 +1,8 @@
 RBT_PARAMETER_FILE_V1.00
 TITLE example
-RECEPTOR_FILE run_pocketvec/1A42_prepared.mol2
+RECEPTOR_FILE run_pocketvec/1A42_clean.mol2
 RECEPTOR_FLEX 0
 SECTION POCKET
-    CENTER run_pocketvec/CTR_LIG.sd
+    CENTER run_pocketvec/ligand_centroid.sdf
     RADIUS 12
 END_SECTION
